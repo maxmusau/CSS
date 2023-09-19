@@ -1,0 +1,73 @@
+.navs {
+    background-color: rgb(5, 5, 70);
+    padding: 15px;
+   
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 9px;
+}
+
+a:hover {
+    color: black;
+    background-color: green;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.active {
+    color: black;
+    background-color: green;
+    padding: 12px;
+    border-radius: 10px;
+}
+.container{
+    background-image: url(agric_show.jpg);
+    height: 550px;
+}
+.navs i{
+    text-align: left;
+    color: white;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.section1{
+    width: 50%;
+    background-color: rgb(151, 227, 230);
+    opacity: 0.8;
+    padding: 9px;
+    float: left;
+    border-radius: 10px;    
+
+}
+.section1 h2{
+    color: rgb(5, 5, 70);
+}
+.section1 p{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.section2{
+    width: 42%;
+    background-color: rgb(151, 151, 222);
+    opacity: 0.6;
+    padding: 10px;
+    float: right;
+    margin-top: 180px;
+    border-radius: 10px;
+}
+.section2 p{
+    color: rgb(17, 34, 223);
+    font-weight: bold;
+    text-align: center;
+}
+.section2 h2{
+    color: rgb(24, 24, 216);
+}
+.section2  img, .section1 img{
+    width: 100%;
+}

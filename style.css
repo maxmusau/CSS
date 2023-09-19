@@ -1,0 +1,64 @@
+h1 {
+    color: deeppink;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-style: italic;
+
+}
+
+.headings {
+    color: rgb(182, 71, 27);
+    text-align: center;
+    text-decoration: 4px underline dashed red;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.p1 {
+    color: chocolate;
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    line-height: 16px;
+}
+
+.p2 {
+    text-indent: 30px;
+    letter-spacing: 2px;
+    background-color: rgb(234, 180, 113);
+    color: rgb(229, 45, 17);
+    height: 80px;
+    width: 750px;
+
+}
+
+.mylinks {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 18px;
+    background-color: rgb(59, 7, 59);
+    padding: 20px;
+    margin-left: 50px;
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 10px;
+
+}
+
+a:hover {
+    background-color: green;
+    color: black;
+}
+
+.active {
+    background-color: green;
+    color: black;
+}

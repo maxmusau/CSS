@@ -1,0 +1,49 @@
+h2{
+    background-color: navy;
+    transition: 1s;
+    color: red;
+}
+h2:hover{
+    padding: 25px;
+    background-color: #008000;
+    color: white;
+}
+p{
+    background-color: aqua;
+    color: black;
+    transition: 3s;
+}
+p:hover{
+    background-color: #008000;
+    color: white;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+}
+/* change the dimension */
+.image1{
+    transition: 6s;
+    margin-left: 25px;
+}
+.image1:hover{
+    transform: scaleY(1.5);
+}
+/* transform -skew */
+.image2{
+    transition: 4s;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.image2:hover{
+    transform: skewX(-30deg);
+}
+/* transform -rotate */
+.image3{
+    transition: 4s;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.image3:hover{
+    transform: rotate(30deg);
+}
+
